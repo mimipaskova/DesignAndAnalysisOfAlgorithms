@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1422285156 source:d:\mimi\su - raboti\3 kurs\daa - prakt\homework1\scheduling\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+
