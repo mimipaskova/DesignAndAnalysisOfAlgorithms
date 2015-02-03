@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1422995856 source:d:\mimi\su - raboti\3 kurs\daa - prakt\homework1\podrujkampdkruskal\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<queue>
+	<set>
+
