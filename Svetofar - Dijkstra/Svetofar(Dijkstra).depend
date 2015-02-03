@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1422952717 source:d:\mimi\su - raboti\3 kurs\daa - prakt\homework1\svetofar(dijkstra)\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<queue>
+
