@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1423248731 source:d:\mimi\su - raboti\3 kurs\daa - prakt\homework1\draskanicaprim\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<queue>
+	<math.h>
+

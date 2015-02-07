@@ -43,12 +43,10 @@ void Union(int u, int v){
     int v1 = Find(v);
     if(rang[u1]<rang[v1]){
         pi[u1] = v1;
-//        rang[v1] += rang[u1];
         //zalepi u durvoto kum v durvoto
     }
     else if(rang[u1]>rang[v1]){
         pi[v1] = u1;
-//        rang[u1] += rang[v1];
         //zalepi v durvoto u durvoto
     }
     else{
@@ -59,7 +57,6 @@ void Union(int u, int v){
 }
 
 int Kruskal(){
-    //sort(e); - E sa rebrata
     for(int i=1;i<=n;i++){
         pi[i] = i;
         rang[i] = 1;
@@ -86,13 +83,10 @@ int Kruskal(){
 }
 
 
-
-
 int main()
 {
     scanf("%d %d", &n, &m);
     int currSt, currF,currDist;
-
 
     for(int i=0; i<m;i++){
         scanf("%d %d %d", &currSt, &currF, &currDist);
@@ -101,17 +95,17 @@ int main()
         currentEdge.fin = currF;
         currentEdge.dist = currDist;
         allRebra.insert(currentEdge);
-        int lqlq = Kruskal();
+        int allRoads = Kruskal();
 
         int firstEl = Find(1);
 
         for(int j= 2;j<=n; j++){
             if(Find(j)!=firstEl){
-                lqlq = -1;
+                allRoads = -1;
                 break;
             }
         }
-        printf("%d\n", lqlq);
+        printf("%d\n", allRoads);
     }
 
     return 0;

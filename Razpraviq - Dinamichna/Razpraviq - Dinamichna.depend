@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1423335026 source:d:\mimi\su - raboti\3 kurs\daa - prakt\homework1\razpraviq - dinamichna\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<algorithm>
+
